@@ -1,0 +1,204 @@
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0px;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+html {
+    background: #fff url(../image/bk.jpg) repeat-x;
+}
+body {
+    width: 80%;
+    min-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "宋体";
+}
+
+#container {
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    height: 170px;
+    margin-bottom: 15px;
+    background: url(../image/bk.jpg) repeat-x;
+}
+#header a {
+    color: white;
+}
+#ppt {
+    position: absolute;
+    top: 6px;
+    right: 90px;
+}
+#logo p{
+    color: #eee;
+    position: absolute;
+    top: 26px;
+    left: 260px;
+    margin: 0;
+    text-align: right;
+    font-size: 30pt;
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+/* 一级导航 */
+#menu {
+    width: 900px;
+    height: 42px;
+    margin: auto;
+
+}
+#menu ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+#menu ul li {
+    width:110px;
+    height: 42px;
+    float:left;
+    margin-right:1px;
+    position:relative;
+}
+#menu ul li a {
+    display:block;
+    text-decoration:none;
+    width:110px;
+    height:42px;
+    text-align:center;
+    color:#fff;
+    line-height:42px;
+    font-size:18px;
+    overflow:hidden;
+}
+/* 二级导航 */
+#menu ul li ul {
+    display: none;
+}
+#menu ul li:hover a {
+    color:#fff;
+    background:#710069;
+}
+#menu ul li:hover ul {
+    display:block;
+    position:absolute;
+    top:42px;
+    left:0;
+    width:110px;
+}
+/* 三级导航 */
+#menu ul li:hover ul li ul {
+    display: none;
+}
+#menu ul li:hover ul li a {
+    display:block;
+    background:#710069;
+    font-size:14px;
+}
+#menu ul li:hover ul li a:hover, #menu ul li:hover ul li:hover a {
+    background:#36f;
+}
+#menu ul li:hover ul li:hover ul {
+    display:block;
+    position:absolute;
+    left:110px;
+    top:0;
+}
+#menu ul li:hover ul li:hover ul li a:hover{
+    background:#6a3;
+}
+#nav{
+    float: left;
+    width: 20%;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #c0c0c0;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+#nav p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 42px;
+    background-color: #cd853f;
+}
+#nav ul{
+    padding: 0;
+    margin-bottom: 30px;
+}
+#nav li{
+    line-height: 36px;
+    word-break: keep-all;
+}
+#nav li a{
+    color: #ffffff;
+}
+#nav li:hover{
+    background-color: #00468e;
+    font-size: 120%;
+}
+#content{
+    width: 78%;
+    float: right;
+    text-align: left;
+    line-height: 28pt;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.alignCenter{
+    text-align: center;
+}
+.paraIndent{
+    text-align: left;
+    text-indent: 2em;
+}
+#content .show{
+    color: red;
+    display: none;
+}
+#content span{
+    font-weight: bolder;
+}
+#content table, th, td{
+    border: 4px inset gainsboro;
+    padding: 8px;
+}
+#content .bkGray{
+    background-color: gainsboro;
+}
+#content .posCenter{
+    margin: 0 auto;
+}
+#content .clrRed{
+    color: crimson;
+}
+#content .clrDarkBlue{
+    color: darkcyan;
+}
+#content .txtCenter{
+    text-align: center;
+}
+#content .lineHeightHigh{
+    line-height: 30px;
+}
+#content dt, dd{
+    margin-top: 6px;
+    line-height: 28px;
+}
+#footer {
+    margin: 100px auto;
+    text-align: center;
+    clear: both;
+}
